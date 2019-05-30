@@ -9,10 +9,12 @@ VM3 - {Name: vm2233dlv, OSType: linux, Ip: 5.4.18.7, Environment: qa}
 VM4 - {Name: vm2355dwv, OSType: windows, Ip: 2.3.8.9, Environment: qa}      
 VM5 - {Name: vm2511dwv, OSType: windows, Ip: 2.3.7.2, Environment: qa}      
 VM6 - {Name: vm2519dwv, OSType: windows, Ip: 2.3.0.6, Environment: qa}  
+
 Please refer the supporting data provided in yml file (dc.yml) and use the same data as a source for your code. The data is provided in yaml representation for better understanding of the object hierarchy and relationship and need not be handled using yml.    
 
 
 Write a program in go language, which takes the provided VMs data as input and assign the cluster, datastore, host and networks based on the given criteria. Print the VMs data at the end of the program that shows the cluster,datastore,host and networks assigned for the VM.
+
 Cluster - should be picked up based on environment and OS type
 Hosts   - should be picked up randomly. 
                 Hint: Use some pseudo random generator function       
